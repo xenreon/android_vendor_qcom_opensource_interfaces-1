@@ -3,8 +3,8 @@
 hidl_interface {
     name: "vendor.qti.hardware.camera.postproc@1.0",
     root: "vendor.qti.hardware.camera",
-    product_specific: true,
     owner: "qcom",
+    product_specific: true,
     srcs: [
         "types.hal",
         "IPostProcService.hal",
