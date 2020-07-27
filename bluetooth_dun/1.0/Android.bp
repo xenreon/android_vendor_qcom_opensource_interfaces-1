@@ -2,8 +2,8 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.bluetooth_dun@1.0",
-    root: "vendor.qti.hardware.bluetooth_dun",
     owner: "qcom",
+    root: "vendor.qti.hardware.bluetooth_dun",
     product_specific: true,
     srcs: [
         "types.hal",

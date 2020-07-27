@@ -2,6 +2,7 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.systemhelper@1.0",
+    owner: "qcom",
     root: "vendor.qti.hardware.systemhelper",
     product_specific: true,
     srcs: [

@@ -2,8 +2,8 @@
 
 hidl_interface {
     name: "vendor.display.config@1.14",
-    root: "vendor.display",
     owner: "qcom",
+    root: "vendor.display",
     product_specific: true,
     srcs: [
         "IDisplayConfig.hal",

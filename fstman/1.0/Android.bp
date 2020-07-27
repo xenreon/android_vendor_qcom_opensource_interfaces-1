@@ -2,8 +2,8 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.fstman@1.0",
-    root: "vendor.qti.hardware.fstman",
     owner: "qcom",
+    root: "vendor.qti.hardware.fstman",
     product_specific: true,
     srcs: [
         "types.hal",
