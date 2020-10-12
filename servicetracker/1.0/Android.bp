@@ -2,9 +2,8 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.servicetracker@1.0",
-    owner: "qcom",
     root: "vendor.qti.hardware.servicetracker",
-    product_specific: true,
+    system_ext_specific: true,
     srcs: [
         "types.hal",
         "IServicetracker.hal",
@@ -14,4 +13,3 @@ hidl_interface {
     ],
     gen_java: true,
 }
-

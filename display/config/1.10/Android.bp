@@ -3,10 +3,10 @@
 hidl_interface {
     name: "vendor.display.config@1.10",
     root: "vendor.display",
-    owner: "qcom",
+    system_ext_specific: true,
     srcs: [
-        "IDisplayConfig.hal",
         "IDisplayCWBCallback.hal",
+        "IDisplayConfig.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
@@ -23,4 +23,3 @@ hidl_interface {
     ],
     gen_java: true,
 }
-

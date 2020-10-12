@@ -2,9 +2,8 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.systemhelper@1.0",
-    owner: "qcom",
     root: "vendor.qti.hardware.systemhelper",
-    product_specific: true,
+    system_ext_specific: true,
     srcs: [
         "types.hal",
         "ISystemEvent.hal",
@@ -19,4 +18,3 @@ hidl_interface {
     ],
     gen_java: true,
 }
-

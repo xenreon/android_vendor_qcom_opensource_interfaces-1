@@ -3,7 +3,7 @@
 hidl_interface {
     name: "vendor.qti.hardware.display.mapper@1.0",
     root: "vendor.qti.hardware.display",
-    owner: "qcom",
+    system_ext_specific: true,
     srcs: [
         "IQtiMapper.hal",
     ],
@@ -16,4 +16,3 @@ hidl_interface {
     ],
     gen_java: false,
 }
-

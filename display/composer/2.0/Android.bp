@@ -2,9 +2,8 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.display.composer@2.0",
-    owner: "qcom",
     root: "vendor.qti.hardware.display",
-    product_specific: true,
+    system_ext_specific: true,
     srcs: [
         "IQtiComposer.hal",
         "IQtiComposerClient.hal",
@@ -20,4 +19,3 @@ hidl_interface {
     ],
     gen_java: false,
 }
-

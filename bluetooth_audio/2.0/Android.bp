@@ -3,8 +3,7 @@
 hidl_interface {
     name: "vendor.qti.hardware.bluetooth_audio@2.0",
     root: "vendor.qti.hardware.bluetooth_audio",
-    owner: "qcom",
-    product_specific: true,
+    system_ext_specific: true,
     srcs: [
         "types.hal",
         "IBluetoothAudioPort.hal",
@@ -16,4 +15,3 @@ hidl_interface {
     ],
     gen_java: false,
 }
-

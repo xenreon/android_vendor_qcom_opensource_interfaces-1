@@ -3,7 +3,7 @@
 hidl_interface {
     name: "vendor.qti.hardware.wifi.supplicant@1.0",
     root: "vendor.qti.hardware.wifi",
-    owner: "qcom",
+    system_ext_specific: true,
     srcs: [
         "ISupplicantVendorStaIface.hal",
         "ISupplicantVendorStaIfaceCallback.hal",
@@ -15,4 +15,3 @@ hidl_interface {
     ],
     gen_java: true,
 }
-

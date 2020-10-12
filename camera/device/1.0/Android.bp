@@ -3,7 +3,7 @@
 hidl_interface {
     name: "vendor.qti.hardware.camera.device@1.0",
     root: "vendor.qti.hardware.camera",
-    owner: "qcom",
+    system_ext_specific: true,
     srcs: [
         "types.hal",
         "IQCameraDeviceCallback.hal",
@@ -12,10 +12,5 @@ hidl_interface {
         "android.hardware.camera.device@1.0",
         "android.hidl.base@1.0",
     ],
-    types: [
-        "CameraFace",
-        "QCameraFrameMetadata",
-    ],
-    gen_java: false,
+    gen_java: true,
 }
-
